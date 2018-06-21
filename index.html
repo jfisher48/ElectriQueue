@@ -1,5 +1,5 @@
 <!doctype <!DOCTYPE html>
-<html>
+<html class="no-js" lang="en">
 
 <head>
     <meta charset="utf-8" />
@@ -7,61 +7,87 @@
     <title>Amazeriffic</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Ubuntu" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" media="screen" href="reset.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/foundation.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/app.css" />
     <script src="main.js"></script>
 </head>
 
 <body>
-    <header>
-        <div class="container">
-            <h1>Amazeriffic!</h1>
-            <nav>
-                <a href="#">Sign Up!</a> |
-                <a href="#">FAQ</a> |
-                <a href="#">Support</a>
-            </nav>
+    <div class="top-bar">
+        <div class="grid-container">
+            <div class="grid-x">
+                <div class="top-bar-left">
+                    Amazeriffic    
+                </div>
+                <div class="top-bar-right">
+                    Nav
+                </div>
+            </div>            
         </div>
-    </header>
-    <main>
-        <div class="container">
-            <div class="leftContent">
-                <h2>Amazeriffic will change your life!</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiussmod tempor icididunt ut labore et dolor magna
-                    aliqua.</p>
-                <h3>Here's why you need Amazeriffic:</h3>
-                <ul>
-                    <li>It fits your lifestyle</li>
-                    <li>It's awesome</li>
-                    <li>It rocks your world</li>
-                </ul>
+    </div>
+    <div class="top grid-container full">
+        <header class="grid-container">
+            <div class="container grid-x">
+                <div class="medium-9 cell">
+                    <h1>Amazeriffic!</h1>
+                </div>
+                <div class="medium-3 cell">
+                    <nav>
+                        <a href="#">Sign Up!</a> |
+                        <a href="#">FAQ</a> |
+                        <a href="#">Support</a>
+                    </nav>
+                </div>
             </div>
-            <div class="rightContent">
-                <img src="lightbulb.png" alt="an image of a lightbulb">
+        </header>
+        <main class="grid-container">
+            <div class="container grid-x">
+                <div class="leftContent medium-9 cell">
+                    <h2>Amazeriffic will change your life!</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiussmod tempor icididunt ut labore et dolor magna
+                        aliqua.</p>
+                    <h3>Here's why you need Amazeriffic:</h3>
+                    <ul>
+                        <li>It fits your lifestyle</li>
+                        <li>It's awesome</li>
+                        <li>It rocks your world</li>
+                    </ul>
+                </div>
+                <div class="rightContent medium-3 cell">
+                    <img src="lightbulb.png" alt="an image of a lightbulb">
+                </div>
             </div>
-        </div>
-    </main>
-    <footer>
-        <div class="container">
-            <div class="contact">
-                <h5>Contact Us</h5>
-                <p>Amazeriffic</p>
-                <p>555 Fiftieth Street</p>
-                <p>Asheville, NC 28801</p>
+        </main>
+    </div>
+    <div class="bottom grid-container full">
+        <footer class="grid-container">
+            <div class="container grid-x">
+                <div class="contact">
+                    <h5>Contact Us</h5>
+                    <p>Amazeriffic</p>
+                    <p>555 Fiftieth Street</p>
+                    <p>Asheville, NC 28801</p>
+                </div>
+                <div class="sitemap">
+                    <h5>Sitemap</h5>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="sitemap">
-                <h5>Sitemap</h5>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Privacy</a></li>
-                    <li><a href="#">Support</a></li>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">Careers</a></li>
-                </ul>
-            </div>
-        </div>
-    </footer>
+        </footer>
+    </div>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
 
 </body>
 
