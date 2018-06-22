@@ -32,18 +32,21 @@ p {
     padding: 0 10px 10px 0;
 }
 
+.top-bar {
+    background-color: #2c3840; 
+</nav>
+}
+
 .top {
-    background-color: white;
+    background-color: #edac08;
 }
 
 .bottom {
-    background: #f9e933;
+    background: #2c3840;
     height: 100%;
 }
 
-main {
-    background-color: white;
-}
+
 
 /*header, main, footer {
     min-width: 855px;
