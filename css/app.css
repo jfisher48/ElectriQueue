@@ -63,6 +63,10 @@ p {
     color:rgba(255, 255, 255, 0.85)
 }
 
+.hamburger-icon {
+    height: 20px;
+}
+
 .top-bar a:hover {
     color: white;
 }
